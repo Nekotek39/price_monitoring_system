@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<offers>
+  <group name="Smartfony">
+    <o id="CS-1000" url="https://cyfrowyswiat.example/p/s3-1000" price="3 949,00" ship="9.99" avail="1" stan="nowy">
+      <cat>Smartfony</cat>
+      <name><![CDATA[Smartfon Apple iPhone 16 128GB Czarny & etui]]></name>
+      <attrs>
+        <a name="Producent">Apple</a>
+        <a name="EAN">2000000010007</a>
+        <a name="Kod_producenta">SIM-P01-IPHONE16</a>
+        <a name="Kolor">czarny</a>
+        <a name="Pamięć">128gb</a>
+        <a name="Pusty"></a>
+      </attrs>
+    </o>
+  </group>
+  <o id="CS-2000" price="2799" avail="0" stan="odnowiony">
+    <name>Sony PlayStation 5 Pro odnowiona</name>
+  </o>
+</offers>

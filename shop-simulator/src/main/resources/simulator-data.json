@@ -1,0 +1,1302 @@
+{
+  "shops": [
+    {
+      "code": "s1",
+      "name": "ElektroMax",
+      "format": "JSON",
+      "offers": [
+        {
+          "id": "S1-1000",
+          "name": "Apple iPhone 16 128GB Czarny",
+          "brand": "Apple",
+          "gtin": "2000000010007",
+          "mpn": "SIM-P01-IPHONE16",
+          "attributes": {
+            "pamięć": "128gb",
+            "kolor": "czarny"
+          },
+          "condition": "new",
+          "price": "4226.37",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1000",
+          "truth": "P01"
+        },
+        {
+          "id": "S1-1002",
+          "name": "Apple iPhone 16 128GB Biały",
+          "brand": "Apple",
+          "gtin": "2000000010021",
+          "mpn": "SIM-P03-IPHONE16",
+          "attributes": {
+            "pamięć": "128gb",
+            "kolor": "biały"
+          },
+          "condition": "new",
+          "price": "4140.29",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1002",
+          "truth": "P03"
+        },
+        {
+          "id": "S1-1003",
+          "name": "Samsung Galaxy S25 256GB Granatowy",
+          "brand": "Samsung",
+          "gtin": "2000000010038",
+          "mpn": "SIM-P04-GALAXYS2",
+          "attributes": {
+            "pamięć": "256gb",
+            "kolor": "granatowy"
+          },
+          "condition": "new",
+          "price": "4177.34",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1003",
+          "truth": "P04"
+        },
+        {
+          "id": "S1-1004",
+          "name": "Samsung Galaxy S25 Ultra 512GB Tytanowy",
+          "brand": "Samsung",
+          "gtin": "2000000010045",
+          "mpn": "SIM-P05-GALAXYS2",
+          "attributes": {
+            "pamięć": "512gb",
+            "kolor": "tytanowy"
+          },
+          "condition": "new",
+          "price": "6291.63",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1004",
+          "truth": "P05"
+        },
+        {
+          "id": "S1-1005",
+          "name": "Xiaomi 15 256GB Zielony",
+          "brand": "Xiaomi",
+          "gtin": "2000000010052",
+          "mpn": "SIM-P06-15",
+          "attributes": {
+            "pamięć": "256gb",
+            "kolor": "zielony"
+          },
+          "condition": "new",
+          "price": "3912.64",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1005",
+          "truth": "P06"
+        },
+        {
+          "id": "S1-1007",
+          "name": "Sony PlayStation 5 Slim Digital",
+          "brand": "Sony",
+          "gtin": "2000000010076",
+          "mpn": "SIM-P08-PLAYSTAT",
+          "attributes": {},
+          "condition": "new",
+          "price": "2165.49",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1007",
+          "truth": "P08"
+        },
+        {
+          "id": "S1-1008",
+          "name": "Microsoft Xbox Series X 1TB",
+          "brand": "Microsoft",
+          "gtin": "2000000010083",
+          "mpn": "SIM-P09-XBOXSERI",
+          "attributes": {
+            "pamięć": "1tb"
+          },
+          "condition": "new",
+          "price": "2440.63",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1008",
+          "truth": "P09"
+        },
+        {
+          "id": "S1-1009",
+          "name": "Nintendo Switch 2",
+          "brand": "Nintendo",
+          "gtin": "2000000010090",
+          "mpn": "SIM-P10-SWITCH2",
+          "attributes": {},
+          "condition": "new",
+          "price": "2058.29",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1009",
+          "truth": "P10"
+        },
+        {
+          "id": "S1-1010",
+          "name": "Nintendo Switch 2 + Mario Kart World",
+          "brand": "Nintendo",
+          "gtin": "2000000010106",
+          "mpn": "SIM-P11-SWITCH2",
+          "attributes": {},
+          "condition": "new",
+          "price": "2199.58",
+          "shipping": "0.00",
+          "available": false,
+          "url": "https://elektromax.example/p/s1-1010",
+          "truth": "P11"
+        },
+        {
+          "id": "S1-1011",
+          "name": "Apple AirPods Pro 2",
+          "brand": "Apple",
+          "gtin": "2000000010113",
+          "mpn": "SIM-P12-AIRPODSP",
+          "attributes": {},
+          "condition": "new",
+          "price": "1132.14",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1011",
+          "truth": "P12"
+        },
+        {
+          "id": "S1-1012",
+          "name": "Sony WH-1000XM6 Czarne",
+          "brand": "Sony",
+          "gtin": "2000000010120",
+          "mpn": "SIM-P13-WH1000XM",
+          "attributes": {
+            "kolor": "czarny"
+          },
+          "condition": "new",
+          "price": "1599.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1012",
+          "truth": "P13"
+        },
+        {
+          "id": "S1-1013",
+          "name": "Apple MacBook Air 13 M4 16GB 256GB",
+          "brand": "Apple",
+          "gtin": "2000000010137",
+          "mpn": "SIM-P14-MACBOOKA",
+          "attributes": {
+            "pamięć": "256gb"
+          },
+          "condition": "new",
+          "price": "5341.57",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1013",
+          "truth": "P14"
+        },
+        {
+          "id": "S1-1014",
+          "name": "Lenovo Legion 5 16IRX9 32GB 1TB",
+          "brand": "Lenovo",
+          "gtin": "2000000010144",
+          "mpn": "SIM-P15-LEGION51",
+          "attributes": {
+            "pamięć": "1tb"
+          },
+          "condition": "new",
+          "price": "6906.97",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1014",
+          "truth": "P15"
+        },
+        {
+          "id": "S1-1015",
+          "name": "Samsung QE55Q80D 55\" QLED",
+          "brand": "Samsung",
+          "gtin": "2000000010151",
+          "mpn": "SIM-P16-QE55Q80D",
+          "attributes": {
+            "przekątna": "55"
+          },
+          "condition": "new",
+          "price": "4041.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1015",
+          "truth": "P16"
+        },
+        {
+          "id": "S1-1016",
+          "name": "LG OLED55C4 55\" OLED",
+          "brand": "LG",
+          "gtin": "2000000010168",
+          "mpn": "SIM-P17-OLED55C4",
+          "attributes": {
+            "przekątna": "55"
+          },
+          "condition": "new",
+          "price": "4927.47",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1016",
+          "truth": "P17"
+        },
+        {
+          "id": "S1-1017",
+          "name": "Apple Watch Series 10 46mm",
+          "brand": "Apple",
+          "gtin": "2000000010175",
+          "mpn": "SIM-P18-WATCHSER",
+          "attributes": {
+            "przekątna": "46mm"
+          },
+          "condition": "new",
+          "price": "2288.94",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1017",
+          "truth": "P18"
+        },
+        {
+          "id": "S1-1018",
+          "name": "DJI Mini 4 Pro",
+          "brand": "DJI",
+          "gtin": "2000000010182",
+          "mpn": "SIM-P19-MINI4PRO",
+          "attributes": {},
+          "condition": "new",
+          "price": "3965.88",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1018",
+          "truth": "P19"
+        },
+        {
+          "id": "S1-1019",
+          "name": "Logitech MX Master 3S Grafitowa",
+          "brand": "Logitech",
+          "gtin": "2000000010199",
+          "mpn": "SIM-P20-MXMASTER",
+          "attributes": {
+            "kolor": "grafitowy"
+          },
+          "condition": "new",
+          "price": "454.51",
+          "shipping": "14.99",
+          "available": true,
+          "url": "https://elektromax.example/p/s1-1019",
+          "truth": "P20"
+        }
+      ]
+    },
+    {
+      "code": "s2",
+      "name": "TechPunkt",
+      "format": "JSON",
+      "offers": [
+        {
+          "id": "S2-1002",
+          "name": "APPLE iPhone 16 128 GB biały",
+          "brand": "Apple",
+          "gtin": "2000000010021",
+          "mpn": null,
+          "attributes": {
+            "storage": "128gb",
+            "color": "white"
+          },
+          "condition": "new",
+          "price": "4221.06",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1002",
+          "truth": "P03"
+        },
+        {
+          "id": "S2-1004",
+          "name": "SAMSUNG Galaxy S25 Ultra 512 GB tytanowy",
+          "brand": "Samsung",
+          "gtin": "2000000010045",
+          "mpn": null,
+          "attributes": {
+            "storage": "512gb",
+            "color": "titanium"
+          },
+          "condition": "new",
+          "price": "6624.18",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1004",
+          "truth": "P05"
+        },
+        {
+          "id": "S2-1005",
+          "name": "XIAOMI 15 256 GB zielony",
+          "brand": "Xiaomi",
+          "gtin": "2000000010052",
+          "mpn": null,
+          "attributes": {
+            "storage": "256gb",
+            "color": "green"
+          },
+          "condition": "new",
+          "price": "3639.44",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1005",
+          "truth": "P06"
+        },
+        {
+          "id": "S2-1007",
+          "name": "SONY PlayStation 5 Slim Digital",
+          "brand": "Sony",
+          "gtin": "2000000010076",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2128.83",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1007",
+          "truth": "P08"
+        },
+        {
+          "id": "S2-1008",
+          "name": "MICROSOFT Xbox Series X 1 TB",
+          "brand": "Microsoft",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {
+            "storage": "1tb"
+          },
+          "condition": "new",
+          "price": "2552.96",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1008",
+          "truth": "P09"
+        },
+        {
+          "id": "S2-1009",
+          "name": "NINTENDO Switch 2",
+          "brand": "Nintendo",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2071.98",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1009",
+          "truth": "P10"
+        },
+        {
+          "id": "S2-1010",
+          "name": "NINTENDO Switch 2 zestaw z grą Mario Kart World",
+          "brand": "Nintendo",
+          "gtin": "2000000010106",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2258.56",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1010",
+          "truth": "P11"
+        },
+        {
+          "id": "S2-1011",
+          "name": "APPLE AirPods Pro 2",
+          "brand": "Apple",
+          "gtin": "2000000010113",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "1141.11",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1011",
+          "truth": "P12"
+        },
+        {
+          "id": "S2-1012",
+          "name": "SONY WH-1000XM6 czarny",
+          "brand": "Sony",
+          "gtin": "2000000010120",
+          "mpn": null,
+          "attributes": {
+            "color": "black"
+          },
+          "condition": "new",
+          "price": "1549.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1012",
+          "truth": "P13"
+        },
+        {
+          "id": "S2-1013",
+          "name": "APPLE MacBook Air 13 M4 256 GB",
+          "brand": "Apple",
+          "gtin": "2000000010137",
+          "mpn": null,
+          "attributes": {
+            "storage": "256gb"
+          },
+          "condition": "new",
+          "price": "5245.16",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1013",
+          "truth": "P14"
+        },
+        {
+          "id": "S2-1015",
+          "name": "SAMSUNG QE55Q80D 55 cali",
+          "brand": "Samsung",
+          "gtin": "2000000010151",
+          "mpn": null,
+          "attributes": {
+            "screen": "55"
+          },
+          "condition": "new",
+          "price": "3915.55",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1015",
+          "truth": "P16"
+        },
+        {
+          "id": "S2-1018",
+          "name": "DJI Mini 4 Pro",
+          "brand": "DJI",
+          "gtin": "2000000010182",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3892.12",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1018",
+          "truth": "P19"
+        },
+        {
+          "id": "S2-1019",
+          "name": "LOGITECH MX Master 3S grafitowy",
+          "brand": "Logitech",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {
+            "color": "graphite"
+          },
+          "condition": "new",
+          "price": "463.84",
+          "shipping": "14.99",
+          "available": true,
+          "url": "https://techpunkt.example/p/s2-1019",
+          "truth": "P20"
+        }
+      ]
+    },
+    {
+      "code": "s3",
+      "name": "Cyfrowy Świat",
+      "format": "XML",
+      "offers": [
+        {
+          "id": "S3-1000",
+          "name": "Smartfon Apple iPhone 16 128GB Czarny",
+          "brand": "Apple",
+          "gtin": "2000000010007",
+          "mpn": "SIM-P01-IPHONE16",
+          "attributes": {
+            "pamięć": "128gb",
+            "kolor": "czarny"
+          },
+          "condition": "new",
+          "price": "4235.17",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1000",
+          "truth": "P01"
+        },
+        {
+          "id": "S3-1001",
+          "name": "Smartfon Apple iPhone 16 256GB Czarny",
+          "brand": "Apple",
+          "gtin": "2000000010014",
+          "mpn": "SIM-P02-IPHONE16",
+          "attributes": {
+            "pamięć": "256gb",
+            "kolor": "czarny"
+          },
+          "condition": "new",
+          "price": "4836.41",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1001",
+          "truth": "P02"
+        },
+        {
+          "id": "S3-1002",
+          "name": "Smartfon Apple iPhone 16 128GB Biały",
+          "brand": "Apple",
+          "gtin": "2000000010021",
+          "mpn": "SIM-P03-IPHONE16",
+          "attributes": {
+            "pamięć": "128gb",
+            "kolor": "biały"
+          },
+          "condition": "new",
+          "price": "3922.72",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1002",
+          "truth": "P03"
+        },
+        {
+          "id": "S3-1003",
+          "name": "Smartfon Samsung Galaxy S25 256GB Granatowy",
+          "brand": "Samsung",
+          "gtin": "2000000010038",
+          "mpn": "SIM-P04-GALAXYS2",
+          "attributes": {
+            "pamięć": "256gb",
+            "kolor": "granatowy"
+          },
+          "condition": "new",
+          "price": "4505.82",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1003",
+          "truth": "P04"
+        },
+        {
+          "id": "S3-1007",
+          "name": "Konsola Sony PlayStation 5 Slim Digital",
+          "brand": "Sony",
+          "gtin": "2000000010076",
+          "mpn": "SIM-P08-PLAYSTAT",
+          "attributes": {},
+          "condition": "new",
+          "price": "2148.79",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1007",
+          "truth": "P08"
+        },
+        {
+          "id": "S3-1009",
+          "name": "Konsola Nintendo Switch 2",
+          "brand": "Nintendo",
+          "gtin": "2000000010090",
+          "mpn": "SIM-P10-SWITCH2",
+          "attributes": {},
+          "condition": "new",
+          "price": "2100.36",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1009",
+          "truth": "P10"
+        },
+        {
+          "id": "S3-1010",
+          "name": "Konsola Nintendo Switch 2 + Mario Kart World",
+          "brand": "Nintendo",
+          "gtin": "2000000010106",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2123.20",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1010",
+          "truth": "P11"
+        },
+        {
+          "id": "S3-1011",
+          "name": "Słuchawki bezprzewodowe Apple AirPods Pro 2",
+          "brand": "Apple",
+          "gtin": "2000000010113",
+          "mpn": "SIM-P12-AIRPODSP",
+          "attributes": {},
+          "condition": "new",
+          "price": "1124.16",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1011",
+          "truth": "P12"
+        },
+        {
+          "id": "S3-1012",
+          "name": "Słuchawki bezprzewodowe Sony WH-1000XM6 Czarne",
+          "brand": "Sony",
+          "gtin": "2000000010120",
+          "mpn": "SIM-P13-WH1000XM",
+          "attributes": {
+            "kolor": "czarny"
+          },
+          "condition": "new",
+          "price": "1549.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1012",
+          "truth": "P13"
+        },
+        {
+          "id": "S3-1015",
+          "name": "Telewizor Samsung QE55Q80D 55\" QLED",
+          "brand": "Samsung",
+          "gtin": "2000000010151",
+          "mpn": "SIM-P16-QE55Q80D",
+          "attributes": {
+            "przekątna": "55"
+          },
+          "condition": "new",
+          "price": "4014.84",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1015",
+          "truth": "P16"
+        },
+        {
+          "id": "S3-1016",
+          "name": "Telewizor LG OLED55C4 55\" OLED",
+          "brand": "LG",
+          "gtin": null,
+          "mpn": "SIM-P17-OLED55C4",
+          "attributes": {
+            "przekątna": "55"
+          },
+          "condition": "new",
+          "price": "5201.60",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1016",
+          "truth": "P17"
+        },
+        {
+          "id": "S3-1017",
+          "name": "Smartwatch Apple Watch Series 10 46mm",
+          "brand": "Apple",
+          "gtin": "2000000010175",
+          "mpn": "SIM-P18-WATCHSER",
+          "attributes": {
+            "przekątna": "46mm"
+          },
+          "condition": "new",
+          "price": "2132.34",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1017",
+          "truth": "P18"
+        },
+        {
+          "id": "S3-1018",
+          "name": "Dron DJI Mini 4 Pro",
+          "brand": "DJI",
+          "gtin": "2000000010182",
+          "mpn": "SIM-P19-MINI4PRO",
+          "attributes": {},
+          "condition": "new",
+          "price": "4020.42",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1018",
+          "truth": "P19"
+        },
+        {
+          "id": "S3-1019",
+          "name": "Mysz Logitech MX Master 3S Grafitowa",
+          "brand": "Logitech",
+          "gtin": "2000000010199",
+          "mpn": "SIM-P20-MXMASTER",
+          "attributes": {
+            "kolor": "grafitowy"
+          },
+          "condition": "new",
+          "price": "443.29",
+          "shipping": "14.99",
+          "available": true,
+          "url": "https://cyfrowyświat.example/p/s3-1019",
+          "truth": "P20"
+        }
+      ]
+    },
+    {
+      "code": "s4",
+      "name": "MegaSklep",
+      "format": "XML",
+      "offers": [
+        {
+          "id": "S4-1001",
+          "name": "iPhone 16 256GB czarny",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4689.41",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1001",
+          "truth": "P02"
+        },
+        {
+          "id": "S4-1002",
+          "name": "iPhone 16 128GB Biały",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4090.83",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1002",
+          "truth": "P03"
+        },
+        {
+          "id": "S4-1003",
+          "name": "Samsung Galaxy S25 256GB Granatowy",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4281.95",
+          "shipping": "0.00",
+          "available": false,
+          "url": "https://megasklep.example/p/s4-1003",
+          "truth": "P04"
+        },
+        {
+          "id": "S4-1004",
+          "name": "Samsung Galaxy S25 Ultra 512GB Tytanowy",
+          "brand": null,
+          "gtin": "2000000010045",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "6530.33",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1004",
+          "truth": "P05"
+        },
+        {
+          "id": "S4-1005",
+          "name": "Xiaomi 15 256GB Zielony",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3631.34",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1005",
+          "truth": "P06"
+        },
+        {
+          "id": "S4-1006",
+          "name": "Sony PlayStation 5 Pro",
+          "brand": null,
+          "gtin": "2000000010069",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3477.03",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1006",
+          "truth": "P07"
+        },
+        {
+          "id": "S4-1007",
+          "name": "Sony PlayStation 5 Slim Digital",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2078.19",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1007",
+          "truth": "P08"
+        },
+        {
+          "id": "S4-1008",
+          "name": "Microsoft Xbox Series X 1TB",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2603.05",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1008",
+          "truth": "P09"
+        },
+        {
+          "id": "S4-1009",
+          "name": "Nintendo Switch 2",
+          "brand": null,
+          "gtin": "2000000010090",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2014.11",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1009",
+          "truth": "P10"
+        },
+        {
+          "id": "S4-1011",
+          "name": "AirPods Pro 2",
+          "brand": null,
+          "gtin": "2000000010113",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "1123.52",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1011",
+          "truth": "P12"
+        },
+        {
+          "id": "S4-1012",
+          "name": "Sony WH-1000XM6 Czarne",
+          "brand": null,
+          "gtin": "2000000010120",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "1529.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1012",
+          "truth": "P13"
+        },
+        {
+          "id": "S4-1013",
+          "name": "MacBook Air 13 M4 16GB 256GB",
+          "brand": null,
+          "gtin": "2000000010137",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "5507.38",
+          "shipping": "0.00",
+          "available": false,
+          "url": "https://megasklep.example/p/s4-1013",
+          "truth": "P14"
+        },
+        {
+          "id": "S4-1014",
+          "name": "Lenovo Legion 5 16IRX9 32GB 1TB",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "7102.11",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1014",
+          "truth": "P15"
+        },
+        {
+          "id": "S4-1015",
+          "name": "Samsung QE55Q80D 55\" QLED",
+          "brand": null,
+          "gtin": "2000000010151",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4020.20",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1015",
+          "truth": "P16"
+        },
+        {
+          "id": "S4-1017",
+          "name": "Watch Series 10 46mm",
+          "brand": null,
+          "gtin": "2000000010175",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2141.66",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1017",
+          "truth": "P18"
+        },
+        {
+          "id": "S4-1018",
+          "name": "DJI Mini 4 Pro",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3852.31",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1018",
+          "truth": "P19"
+        },
+        {
+          "id": "S4-1019",
+          "name": "Logitech MX Master 3S Grafitowa",
+          "brand": null,
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "466.16",
+          "shipping": "14.99",
+          "available": true,
+          "url": "https://megasklep.example/p/s4-1019",
+          "truth": "P20"
+        }
+      ]
+    },
+    {
+      "code": "s5",
+      "name": "Okazja24",
+      "format": "JSON",
+      "offers": [
+        {
+          "id": "S5-1000",
+          "name": "Apple iPhone 16 128GB Czarny (gwarancja PL)",
+          "brand": "Apple",
+          "gtin": null,
+          "mpn": "SIM-P01-IPHONE16",
+          "attributes": {},
+          "condition": "new",
+          "price": "3922.03",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1000",
+          "truth": "P01"
+        },
+        {
+          "id": "S5-1002",
+          "name": "Apple iPhone 16 128GB Biały - PROMOCJA",
+          "brand": "Apple",
+          "gtin": "2000000010021",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4223.43",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1002",
+          "truth": "P03"
+        },
+        {
+          "id": "S5-1004",
+          "name": "Samsung Galaxy S25 Ultra 512GB Tytanowy - PROMOCJA",
+          "brand": "Samsung",
+          "gtin": null,
+          "mpn": "SIM-P05-GALAXYS2",
+          "attributes": {},
+          "condition": "new",
+          "price": "6295.32",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1004",
+          "truth": "P05"
+        },
+        {
+          "id": "S5-1005",
+          "name": "Xiaomi 15 256GB Zielony - PROMOCJA",
+          "brand": "Xiaomi",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3813.61",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1005",
+          "truth": "P06"
+        },
+        {
+          "id": "S5-1006",
+          "name": "Sony PlayStation 5 Pro - PROMOCJA",
+          "brand": "Sony",
+          "gtin": "2000000010069",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3373.17",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1006",
+          "truth": "P07"
+        },
+        {
+          "id": "S5-1007",
+          "name": "Sony PlayStation 5 Slim Digital (gwarancja PL)",
+          "brand": "Sony",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2186.76",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1007",
+          "truth": "P08"
+        },
+        {
+          "id": "S5-1008",
+          "name": "Microsoft Xbox Series X 1TB - PROMOCJA",
+          "brand": "Microsoft",
+          "gtin": "2000000010083",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2509.67",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1008",
+          "truth": "P09"
+        },
+        {
+          "id": "S5-1009",
+          "name": "Nintendo Switch 2 - PROMOCJA",
+          "brand": "Nintendo",
+          "gtin": "2000000010090",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2099.77",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1009",
+          "truth": "P10"
+        },
+        {
+          "id": "S5-1010",
+          "name": "Nintendo Switch 2 + Mario Kart World - PROMOCJA",
+          "brand": "Nintendo",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2214.89",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1010",
+          "truth": "P11"
+        },
+        {
+          "id": "S5-1011",
+          "name": "Apple AirPods Pro 2 (gwarancja PL)",
+          "brand": "Apple",
+          "gtin": "2000000010113",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "1150.29",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1011",
+          "truth": "P12"
+        },
+        {
+          "id": "S5-1012",
+          "name": "Sony WH-1000XM6 Czarne - PROMOCJA",
+          "brand": "Sony",
+          "gtin": null,
+          "mpn": "SIM-P13-WH1000XM",
+          "attributes": {},
+          "condition": "new",
+          "price": "1599.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1012",
+          "truth": "P13"
+        },
+        {
+          "id": "S5-1013",
+          "name": "Apple MacBook Air 13 M4 16GB 256GB - PROMOCJA",
+          "brand": "Apple",
+          "gtin": "2000000010137",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "5152.26",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1013",
+          "truth": "P14"
+        },
+        {
+          "id": "S5-1014",
+          "name": "Lenovo Legion 5 16IRX9 32GB 1TB (gwarancja PL)",
+          "brand": "Lenovo",
+          "gtin": null,
+          "mpn": "SIM-P15-LEGION51",
+          "attributes": {},
+          "condition": "new",
+          "price": "6965.42",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1014",
+          "truth": "P15"
+        },
+        {
+          "id": "S5-1015",
+          "name": "Samsung QE55Q80D 55\" QLED (gwarancja PL)",
+          "brand": "Samsung",
+          "gtin": "2000000010151",
+          "mpn": "SIM-P16-QE55Q80D",
+          "attributes": {},
+          "condition": "new",
+          "price": "3900.10",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1015",
+          "truth": "P16"
+        },
+        {
+          "id": "S5-1016",
+          "name": "LG OLED55C4 55\" OLED - PROMOCJA",
+          "brand": "LG",
+          "gtin": "2000000010168",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "4995.85",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1016",
+          "truth": "P17"
+        },
+        {
+          "id": "S5-1017",
+          "name": "Apple Watch Series 10 46mm - PROMOCJA",
+          "brand": "Apple",
+          "gtin": "2000000010175",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "2149.18",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1017",
+          "truth": "P18"
+        },
+        {
+          "id": "S5-1018",
+          "name": "DJI Mini 4 Pro - PROMOCJA",
+          "brand": "DJI",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "3837.76",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1018",
+          "truth": "P19"
+        },
+        {
+          "id": "S5-1019",
+          "name": "Logitech MX Master 3S Grafitowa (gwarancja PL)",
+          "brand": "Logitech",
+          "gtin": "2000000010199",
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "447.77",
+          "shipping": "14.99",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-1019",
+          "truth": "P20"
+        },
+        {
+          "id": "S5-2000",
+          "name": "[Outlet] Apple iPhone 16 128GB Czarny - używany",
+          "brand": "Apple",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "used",
+          "price": "3199.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-2000",
+          "truth": "P01"
+        },
+        {
+          "id": "S5-2001",
+          "name": "Sony PlayStation 5 Pro odnowiona (refurbished)",
+          "brand": "Sony",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "refurbished",
+          "price": "2799.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-2001",
+          "truth": "P07"
+        },
+        {
+          "id": "S5-2002",
+          "name": "Pad Sony DualSense Edge",
+          "brand": "Pad",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "899.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-2002",
+          "truth": null
+        },
+        {
+          "id": "S5-2003",
+          "name": "Samsung Galaxy S25 Ultra 256GB Czarny",
+          "brand": "Samsung",
+          "gtin": null,
+          "mpn": null,
+          "attributes": {},
+          "condition": "new",
+          "price": "5899.00",
+          "shipping": "0.00",
+          "available": true,
+          "url": "https://okazja24.example/p/s5-2003",
+          "truth": null
+        }
+      ]
+    }
+  ],
+  "seller": {
+    "apiKey": "seller-secret",
+    "products": [
+      {
+        "id": "MS-001",
+        "name": "Sony WH-1000XM6 Czarne",
+        "price": "1500.00"
+      },
+      {
+        "id": "MS-002",
+        "name": "Sony PlayStation 5 Pro",
+        "price": "3299.00"
+      }
+    ]
+  }
+}

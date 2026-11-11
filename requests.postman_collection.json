@@ -1,0 +1,34 @@
+{
+  "info": {
+    "name": "Price Monitor API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "api", "value": "http://localhost:8080"},
+    {"key": "sim", "value": "http://localhost:8090"}
+  ],
+  "item": [
+    {"name": "Szukaj produktu", "request": {"method": "GET", "url": "{{api}}/api/products?q=iphone"}},
+    {"name": "Porównanie cen (on-demand)", "request": {"method": "GET", "url": "{{api}}/api/products/13/offers"}},
+    {"name": "Historia cen", "request": {"method": "GET", "url": "{{api}}/api/products/13/history?days=7"}},
+    {"name": "Dopasowania do weryfikacji", "request": {"method": "GET", "url": "{{api}}/api/matches?status=TO_REVIEW"}},
+    {"name": "Reguły sprzedawcy", "request": {"method": "GET", "url": "{{api}}/api/sellers/2/rules"}},
+    {"name": "Uruchom regułę teraz", "request": {"method": "POST", "url": "{{api}}/api/sellers/2/rules/1/evaluate"}},
+    {"name": "Decyzje cenowe", "request": {"method": "GET", "url": "{{api}}/api/sellers/2/decisions"}},
+    {"name": "Nowa reguła", "request": {"method": "POST", "url": "{{api}}/api/sellers/2/rules",
+      "header": [{"key": "Content-Type", "value": "application/json"}],
+      "body": {"mode": "raw", "raw": "{\n  \"productId\": 1,\n  \"shopProductId\": \"MS-003\",\n  \"strategy\": \"UNDERCUT_PERCENT\",\n  \"parameters\": {\"percent\": \"1\"},\n  \"minPrice\": 3600,\n  \"maxPrice\": 4500,\n  \"maxChangePercent\": 5,\n  \"minIntervalMinutes\": 30,\n  \"mode\": \"NOTIFY\",\n  \"active\": true,\n  \"competitorShopIds\": [1, 2, 3]\n}"}}},
+    {"name": "Ustawienia", "request": {"method": "GET", "url": "{{api}}/api/admin/settings"}},
+    {"name": "Zmień model na cykliczny", "request": {"method": "PUT", "url": "{{api}}/api/admin/settings",
+      "header": [{"key": "Content-Type", "value": "application/json"}],
+      "body": {"mode": "raw", "raw": "{\"indexing.mode\": \"CYCLIC_ONLY\"}"}}},
+    {"name": "Import wszystkich sklepów", "request": {"method": "POST", "url": "{{api}}/api/admin/import"}},
+    {"name": "Kolejka zadań", "request": {"method": "GET", "url": "{{api}}/api/admin/jobs"}},
+    {"name": "Symulator: start scenariusza 24 h w 24 min", "request": {"method": "POST", "url": "{{sim}}/simulator/scenario/start?durationHours=24&fraction=0.2&seed=1&timeScale=60"}},
+    {"name": "Symulator: zmiany cen (ground truth)", "request": {"method": "GET", "url": "{{sim}}/simulator/changes"}},
+    {"name": "Symulator: awaria sklepu s2", "request": {"method": "POST", "url": "{{sim}}/simulator/shops/s2/failure?mode=DOWN"}},
+    {"name": "Symulator: plik cenowy s3 (XML)", "request": {"method": "GET", "url": "{{sim}}/shops/s3/feed"}},
+    {"name": "Sklep sprzedawcy: produkty", "request": {"method": "GET", "url": "{{sim}}/seller/products",
+      "header": [{"key": "X-Api-Key", "value": "seller-secret"}]}}
+  ]
+}

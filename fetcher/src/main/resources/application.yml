@@ -1,0 +1,34 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: price-monitor-fetcher
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:${DB_PORT:5432}/pricemonitor}
+    username: ${DB_USER:pricemonitor}
+    password: ${DB_PASSWORD:pricemonitor}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+  # The schema is migrated by the api application only.
+  flyway:
+    enabled: false
+
+pricemonitor:
+  fetcher:
+    poll-interval-ms: 500
+    max-jobs-per-poll: 20
+    max-attempts: 3
+    retry-base-delay: 5s
+    connect-timeout: 2s
+    read-timeout: 4s
+    shop-unavailable-for: 5m
+    stale-job-timeout: 2m
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

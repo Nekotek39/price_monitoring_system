@@ -1,0 +1,12 @@
+{
+  "shop": "ElektroMax",
+  "generatedAt": "2026-11-11T10:00:00Z",
+  "offers": [
+    {"id": "S1-1000", "name": "Apple iPhone 16 128GB Czarny", "brand": "Apple", "gtin": "2000000010007",
+     "mpn": "SIM-P01-IPHONE16", "attributes": {"pamięć": "128gb", "kolor": "czarny", "empty": null},
+     "condition": "new", "price": "4226.37", "shipping": "0.00", "available": true,
+     "url": "https://elektromax.example/p/s1-1000"},
+    {"id": "S1-1001", "name": "Sony WH-1000XM6 Czarne", "brand": null, "gtin": null, "mpn": null,
+     "attributes": {}, "condition": "new", "price": 1549, "shipping": null, "available": false, "url": null}
+  ]
+}

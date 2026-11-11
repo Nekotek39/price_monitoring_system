@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: price-monitor-shop-simulator
+
+simulator:
+  data-file: classpath:simulator-data.json

@@ -1,0 +1,27 @@
+# Local infrastructure: PostgreSQL 16 and Mailpit (test SMTP server with a web inbox at http://localhost:8025).
+# The Spring Boot applications are started separately (see README.md).
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: pricemonitor
+      POSTGRES_USER: pricemonitor
+      POSTGRES_PASSWORD: pricemonitor
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pricemonitor -d pricemonitor"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  mailpit:
+    image: axllent/mailpit:latest
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+
+volumes:
+  pgdata:
