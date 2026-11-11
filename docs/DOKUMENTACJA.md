@@ -1,7 +1,7 @@
 # Dokumentacja techniczna – Price Monitor
 
 Dokument opisuje, **jak działa kod**: architekturę, przepływ danych, algorytmy i miejsca rozszerzeń.
-Uruchomienie, listę endpointów i przebieg eksperymentu opisuje [README](../README.md) – tutaj nie są powtarzane.
+Uruchomienie i przebieg eksperymentu opisuje [README](../README.md), pełną dokumentację endpointów – [API.md](API.md); tutaj nie są powtarzane.
 
 ## Spis treści
 
@@ -398,7 +398,7 @@ Nieznany klucz lub niepoprawna wartość → `400`, a żadna zmiana z żądania 
 
 ## 10. REST API – konwencje i błędy
 
-Pełna interaktywna specyfikacja: Swagger UI pod `http://localhost:8080/swagger-ui.html`, przykłady – `requests.postman_collection.json`.
+Opis wszystkich endpointów: [API.md](API.md). Pełna interaktywna specyfikacja: Swagger UI pod `http://localhost:8080/swagger-ui.html`, przykłady – `requests.postman_collection.json`.
 
 Błędy są zwracane jako **RFC 7807 Problem Details** (`ApiExceptionHandler`):
 

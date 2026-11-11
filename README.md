@@ -45,6 +45,8 @@ Przykładowe żądania są w `requests.postman_collection.json` (import do Postm
 
 ## Najważniejsze endpointy
 
+Pełny opis wszystkich endpointów (parametry, ciała, odpowiedzi, błędy, efekty uboczne): [docs/API.md](docs/API.md).
+
 | Metoda i ścieżka | Opis |
 |---|---|
 | `GET /api/products?q=iphone` | wyszukiwanie (podciąg, kod EAN, podobieństwo `pg_trgm` – literówki) |
